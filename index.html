@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcus Café — Kawiarnia w sercu miasta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <nav class="nav">
+    <div class="wrap">
+      <a href="#" class="nav-logo">Marcus <span>Café</span></a>
+      <button class="nav-toggle" aria-label="Otwórz menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#about">O nas</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#testimonials">Opinie</a>
+        <a href="#hours">Kontakt</a>
+        <a href="#hours" class="btn btn-primary nav-cta">Zarezerwuj stolik</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <div class="hero-bg">
+      <img src="images/storefront.jpg" alt="Wejście do Marcus Café">
+    </div>
+    <div class="hero-content">
+      <span class="eyebrow">Kawiarnia · od 2018</span>
+      <h1>Kawa parzona<br><em>z pasją</em></h1>
+      <p class="lede">Rzemieślnicza kawa, domowe ciasta i chwila spokoju w samym sercu miasta.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">Zobacz menu</a>
+        <a href="#hours" class="btn btn-ghost">Zarezerwuj stolik</a>
+      </div>
+    </div>
+    <div class="scroll-cue">
+      <span>Przewiń</span>
+      <div class="line"></div>
+    </div>
+  </header>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <div class="wrap">
+      <div class="about-media reveal">
+        <img src="images/breakfast.jpg" alt="Śniadanie serwowane w Marcus Café">
+      </div>
+      <div class="about-body reveal">
+        <span class="eyebrow">O nas</span>
+        <h2>Miejsce, do którego<br>wraca się codziennie</h2>
+        <hr class="divider">
+        <p>Marcus Café to przytulna kawiarnia znana z doskonałej kawy, domowych ciast, deserów i naleśników. Każdą filiżankę parzymy z uwagą — czy to przy stoliku wewnątrz, czy na zewnątrz, obserwując tętniącą życiem ulicę.</p>
+        <p>Wierzymy, że dobra kawa to rytuał, a nie pośpiech. Dlatego u nas czas płynie wolniej.</p>
+        <div class="about-stats">
+          <div class="stat"><b>2018</b><span>Rok otwarcia</span></div>
+          <div class="stat"><b>100%</b><span>Świeże wypieki</span></div>
+          <div class="stat"><b>4.8/5</b><span>Ocena gości</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENU ============ -->
+  <section id="menu" class="menu">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Menu</span>
+        <h2>Nasza oferta</h2>
+        <p>Wybrane pozycje z naszego menu — kawy, ciasta, desery i klasyczne naleśniki.</p>
+      </div>
+
+      <div class="menu-grid reveal">
+        <div class="menu-card">
+          <div class="menu-card-head"><h3>Kawy</h3><span>Kawy</span></div>
+          <div class="menu-item"><span class="name">Espresso</span><span class="price">8 zł</span></div>
+          <div class="menu-item"><span class="name">Americano</span><span class="price">10 zł</span></div>
+          <div class="menu-item"><span class="name">Cappuccino<span class="desc">Aksamitna piana mleczna</span></span><span class="price">14 zł</span></div>
+          <div class="menu-item"><span class="name">Latte<span class="desc">Podwójne espresso, spienione mleko</span></span><span class="price">15 zł</span></div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-head"><h3>Ciasta</h3><span>Ciasta</span></div>
+          <div class="menu-item"><span class="name">Sernik klasyczny</span><span class="price">16 zł</span></div>
+          <div class="menu-item"><span class="name">Szarlotka<span class="desc">Podawana na ciepło</span></span><span class="price">15 zł</span></div>
+          <div class="menu-item"><span class="name">Tarta czekoladowa</span><span class="price">18 zł</span></div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-head"><h3>Desery</h3><span>Desery</span></div>
+          <div class="menu-item"><span class="name">Panna cotta</span><span class="price">17 zł</span></div>
+          <div class="menu-item"><span class="name">Tiramisu<span class="desc">Domowa receptura</span></span><span class="price">19 zł</span></div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-head"><h3>Naleśniki</h3><span>Naleśniki</span></div>
+          <div class="menu-item"><span class="name">Z owocami sezonowymi</span><span class="price">22 zł</span></div>
+          <div class="menu-item"><span class="name">Z nutellą i bananem</span><span class="price">20 zł</span></div>
+        </div>
+      </div>
+      <p class="menu-note">Pełne menu dostępne na miejscu · Ceny mogą ulec zmianie</p>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section id="gallery" class="gallery">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Galeria</span>
+        <h2>Poczuj atmosferę</h2>
+      </div>
+      <div class="gallery-grid reveal">
+        <a href="images/dessert-pavlova.jpg" class="g1"><img src="images/dessert-pavlova.jpg" alt="Autorski tort bezowy z kremem i orzechami"></a>
+        <a href="images/drink-caramel-shake.jpg" class="g2"><img src="images/drink-caramel-shake.jpg" alt="Shake karmelowy z bitą śmietaną"></a>
+        <a href="images/drink-duo-shakes.jpg" class="g3"><img src="images/drink-duo-shakes.jpg" alt="Dwa kolorowe shake'i przy barze"></a>
+        <a href="images/drink-strawberry-shake.jpg" class="g4"><img src="images/drink-strawberry-shake.jpg" alt="Shake truskawkowy z bitą śmietaną"></a>
+        <a href="images/drink-tropical-cocktail.jpg" class="g5"><img src="images/drink-tropical-cocktail.jpg" alt="Tropikalny koktajl bezalkoholowy"></a>
+        <a href="images/drink-aperol-spritz.jpg" class="g6"><img src="images/drink-aperol-spritz.jpg" alt="Aperol Spritz z owocami"></a>
+        <a href="images/cappuccino.jpg" class="g7"><img src="images/cappuccino.jpg" alt="Cappuccino z pianką"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section id="testimonials" class="testimonials">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Opinie</span>
+        <h2>Co mówią nasi goście</h2>
+      </div>
+      <div class="testi-grid reveal">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>Piękny wystrój, wyjątkowa atmosfera i pyszne desery. Kaw jest wiele do wyboru — każdy znajdzie coś dla siebie. Gorąco polecam.</p>
+          <div class="testi-name">K. Asja</div>
+          <div class="testi-role">Opinia z Google</div>
+          <div class="testi-photos">
+            <img src="images/review-photo1.jpg" alt="Zdjęcie deseru dodane przez gościa">
+            <img src="images/review-photo2.jpg" alt="Zdjęcie kawy i deseru dodane przez gościa">
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>Sernik dosłownie rozpływa się w ustach. Obsługa zawsze uśmiechnięta, a wnętrze bardzo przytulne.</p>
+          <div class="testi-name">Michał W.</div>
+          <div class="testi-role">Gość z Google</div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>Wracam tu za każdym razem, gdy jestem w mieście. Naleśniki są fantastyczne, polecam każdemu.</p>
+          <div class="testi-name">Julia S.</div>
+          <div class="testi-role">Gość z Google</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOURS & CONTACT ============ -->
+  <section id="hours" class="hours">
+    <div class="wrap">
+      <div class="reveal">
+        <span class="eyebrow">Godziny otwarcia</span>
+        <h2>Zapraszamy</h2>
+        <div class="hours-table">
+          <div class="hours-row"><span class="day">Poniedziałek – Sobota</span><span class="time">8:00 – 21:00</span></div>
+          <div class="hours-row"><span class="day">Niedziela</span><span class="time">10:00 – 21:00</span></div>
+        </div>
+
+        <div class="contact-block" style="margin-top:40px;">
+          <span class="label">Adres</span>
+          <span class="value"><a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47185ece88a0118b:0xdee0a602c13b675?sa=X&ved=1t:8290&ictx=111" target="_blank" rel="noopener">Stefana Żeromskiego 39/1, 26-600 Radom</a></span>
+        </div>
+        <div class="contact-block">
+          <span class="label">Telefon</span>
+          <span class="value"><a href="tel:+48607675585">+48 607 675 585</a><br><a href="tel:+48881371713">+48 881 371 713</a></span>
+        </div>
+        <a href="tel:+48607675585" class="btn btn-primary">Skontaktuj się</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-col">
+          <div class="footer-logo">Marcus <span>Café</span></div>
+          <p>Kawa, ciasta i chwila spokoju<br>w sercu miasta.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Nawigacja</h4>
+          <p><a href="#about">O nas</a></p>
+          <p><a href="#menu">Menu</a></p>
+          <p><a href="#gallery">Galeria</a></p>
+          <p><a href="#hours">Kontakt</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <p>Stefana Żeromskiego 39/1<br>26-600 Radom</p>
+          <p><a href="tel:+48607675585">+48 607 675 585</a><br><a href="tel:+48881371713">+48 881 371 713</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Social media</h4>
+          <p><a href="https://www.instagram.com/marcuscafee" target="_blank" rel="noopener">Instagram</a></p>
+          <p><a href="https://www.facebook.com/marcuscafe" target="_blank" rel="noopener">Facebook</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Marcus Café. Wszelkie prawa zastrzeżone.</span>
+        <span>Projekt strony: BDX agency</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
